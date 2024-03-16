@@ -141,7 +141,7 @@ img {
     padding: 188px 0px 188px 0px;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/hero-img.png);
+    url(../images/hero-img.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     max-width: 1440px;
@@ -290,7 +290,7 @@ margin-bottom: 72px;
     height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
-    fill: #f4f4fd;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,7 +298,7 @@ margin-bottom: 72px;
 }
 
 .team-icon {
-    fill: #fff;
+    fill: #f4f4fd;
 
 }
 
