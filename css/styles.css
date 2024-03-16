@@ -221,7 +221,7 @@ color: #434455;
     width: calc((100% - 3 * 24px) / 4);
 }
 
-.features-item-wrap {
+.features-item-wrapper {
 width: 264px;
 height: 112px;
 background-color: #F4F4FD;
