@@ -494,9 +494,11 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
    color: #FFFFFF;
+   margin-bottom: 16px;
 }
 
 .footer-form {
+    display: flex;
     gap: 24px;
     
    
@@ -516,8 +518,9 @@ margin-bottom: 16px;
 border-radius: 4px;
 width: 264px;
 height: 40px;
+color: #FFFFFF;
 background-color: #2E2F42;
-margin-right: 24px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-input::placeholder {
