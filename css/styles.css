@@ -788,13 +788,9 @@ justify-content: center;
 align-items: center;
 }
 
-.privacy-icon {
-    display: inline-flex;
-    border: 1px solid rgba(46, 47, 66, 0.4); 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
   
-  .check-text span {
+.check-text span {
     position: relative;
     width: 16px;
     height: 16px;
@@ -805,7 +801,15 @@ align-items: center;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   }
+
+  /* .privacy-icon {
+    display: inline-flex;
+    border: 1px solid rgba(46, 47, 66, 0.4); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
   .modal-check:checked + .check-text span {
     background-color: #404BBF;
