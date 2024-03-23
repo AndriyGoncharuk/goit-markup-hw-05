@@ -332,20 +332,22 @@
                         </li>
                     </ul>
                 </div>
+                
                 <div class="subscribe">
-                    <p class="subscribe-title">Subscribe</p>
+                    <form class="footer-form">
+                        <p class="subscribe-title">Subscribe</p>
                     <div class="footer-input-btn">
-                        <form class="footer-form">
+                        
                             <label class="footer-label" for="email"></label>
-                        <input type="email" name="email" class="footer-input" placeholder="E-mail">
+                        <input type="email" name="email" class="footer-input" placeholder="E-mail" id="email">
                         <button type="submit" class="footer-send-btn">Subscribe
                             <svg width="24" height="24" class="send-img">
                                 <use href="./images/symbol-defs.svg#icon-icon-send"></use>
                             </svg>
                         </button>
-                        </form> 
+                       
                     </div>
-                   
+                </form>
                 </div>
             </div>    
         </footer>
@@ -362,7 +364,7 @@
                         <label class="modal-label" for="user-name">Name</label>
 
                         <div class="modal-input-wrap">
-                            <input type="text" name="user-name" class="modal-input">
+                            <input type="text" name="user-name" class="modal-input" id="user-name">
                             <svg width="12" height="12" class="modal-icon">
                                 <use href="./images/symbol-defs.svg#icon-name"></use>
                             </svg>
@@ -373,8 +375,8 @@
                             <label class="modal-label" for="user-tel">Phone</label>
                             
                             <div class="modal-input-wrap">
-                        <input type="tel" name="user-tel" class="modal-input">
-                        <svg width="12" height="12" class="modal-icon">
+                        <input type="tel" name="user-tel" class="modal-input" id="user-tel">
+                        <svg width="12" height="12" class="modal-icon"> 
                             <use href="./images/symbol-defs.svg#icon-icon-phone"></use>
                         </svg>
                         </div>
@@ -382,14 +384,14 @@
                     <div class="modal-label">
                         <label class="modal-label" for="user-email">Email</label>
                         <div class="modal-input-wrap">
-                            <input type="email" name="user-email" class="modal-input">
+                            <input type="email" name="user-email" class="modal-input" id="user-email">
                             <svg width="12" height="12" class="modal-icon">
                                 <use href="./images/symbol-defs.svg#icon-icon-envelop"></use>
                             </svg>
                         </div>
                         <label class="modal-label" for="user-comment">Comment</label>
                         
-                    </div><textarea class="modal-textarea" name="user-comment" id="" cols="30" rows="6"
+                    </div><textarea class="modal-textarea" name="user-comment" id="user-comment" cols="30" rows="6"
                     placeholder="Text input"></textarea>
 
                     <div class="modal-field">
@@ -403,7 +405,7 @@
             
                         <label for="privacy" class="check-text">
                           <span>
-                            <svg class="modal-check-icon" width="10" height="10">
+                            <svg class="modal-check-icon" width="10" height="8">
                               <use href="./images/symbol-defs.svg#icon-icon-check"></use>
                             </svg>
                           </span>
