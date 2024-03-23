@@ -768,8 +768,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     
 .check-link {
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
     line-height: 1.33;
 text-decoration: underline;
 text-decoration-skip-ink: none;
@@ -783,23 +781,21 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8E8F99;
-display: flex;
-justify-content: center;
-align-items: center;
 }
 
 
+
   
-.check-text .privacy-icon {
+.privacy-icon {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;    
-    align-items: center;
-    justify-content: center;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
